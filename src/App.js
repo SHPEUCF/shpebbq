@@ -1,23 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from './screens/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+  
+class App extends React.Component {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://www.youtube.com/watch?v=rEq1Z0bjdwc"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello there..
-        </a>
-      </header>
-    </div>
-  );
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route path = "/" exact component = { Home }/>
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
