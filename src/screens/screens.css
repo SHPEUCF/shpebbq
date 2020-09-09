@@ -24,3 +24,12 @@ body {
     max-width: 380px;
     margin: 100px;
 }
+
+#text-input {
+    background-color: white;
+}
+
+.cards img {
+    height: 70%;
+    width: 100%;
+}
