@@ -5,7 +5,7 @@ export const companyData = [
       title: "Come innovate with us",
       desc: "Join our diverse group of innovators, working together to solve industries’ and organizations’ most challenging problems. Use leading-edge technologies and strategies to reinvent the way every job is done and help improve the way the world works and lives.",
       link: "https://www.accenture.com/us-en/careers",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/99155205514",
       id: 1
     },
     {

@@ -127,7 +127,7 @@ constructor(props) {
                 if (this.state.currCompany === company.name) {
                   return <img style={{
                     height: '300px', 
-                    width: '500px' 
+                    width: '100%' 
                     }} src={company.img} />;
                 }
               })
