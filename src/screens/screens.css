@@ -17,8 +17,8 @@ body {
 }
 
 #home .cards {
-    max-width: 380px;
-    margin: 60px;
+    max-width: 300px;
+    margin: 40px;
 }
 
 #text-input {
@@ -29,3 +29,28 @@ body {
     height: 70%;
     width: 100%;
 }
+
+#img {
+    max-height: 350px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#header {
+    background-color: #434445;
+    color: white;
+    margin: 15px;
+}
+
+#searchInput {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#pic {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+

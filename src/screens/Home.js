@@ -5,6 +5,8 @@ import { mondayData, tuesdayData } from '../data/companies';
 import { companyData } from '../data/companiesData';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import {
+  AppBar,
+  Avatar,
   Grid,
   Card,
   CardActions,
@@ -17,9 +19,14 @@ import {
   DialogContent,
   DialogContentText,
   DialogTitle,
+  IconButton,
+  Icon,
   Typography,
+  Toolbar,
+  Tooltip,
   TextField
 } from '@material-ui/core';
+import SearchIcon from '@material-ui/icons/Search';
 
 
 class Home extends React.Component {
@@ -28,39 +35,92 @@ constructor(props) {
   this.state = {
     show : false,
     currCompany: "",
-    day: "monday",
     image: "",
+    search: "",
   }
   this.showModal = this.showModal.bind(this);
   this.hideModal = this.hideModal.bind(this);
 } 
 
+renderHeader() {
+  return (
+    <div id="header">
+      <br></br>
+      <br></br>
+      <br></br>
+      <h1>Welcome to the SHPE BBQ Website</h1>
+        <h3>
+          'Cause I-I-I'm in the stars tonight
+          So watch me bring the fire and set the night alight (hey)
+          Shining through the city with a little funk and soul
+          So I'ma light it up like dynamite, whoa
+          This is getting heavy
+          Can you hear the bass boom? I'm ready (woo hoo)
+          Life is sweet as honey
+          Yeah, this beat cha-ching like money
+          Disco overload, I'm into that, I'm good to go
+          I'm diamond, you know I glow up
+          Let's go
+          'Cause I-I-I'm in the stars tonight
+          So watch me bring the fire and set the night alight (hey)
+          Shining through the city with a little funk and soul
+          So I'ma light it up like dynamite, whoa
+          Dy-na-na-na, na-na, na-na-na, na-na, life is dynamite
+          Dy-na-na-na, na-na, na-na-na, na-na, life is dynamite
+          Shining through the city with a little funk and soul
+          So I'ma light it up like dynamite, whoa
+          Dy-na-na-na, na-na, na-na, ayy
+          Dy-na-na-na, na-na, na-na, ayy
+          Dy-na-na-na, na-na, na-na, ayy
+          Light it up like dynamite
+        </h3>
+        <Tooltip title="Click me to watch a quick onboarding video on how to use our site.">
+        {/* put shpe onboarding vid were the youtube home page link is */}
+          <Button 
+            color="inherit" 
+            onClick={() => {window.open('https://www.youtube.com/watch?v=gdZLi9oWNZg&ab_channel=BigHitLabels', "_blank")}}
+          >
+          Onboarding Video</Button>
+        </Tooltip>
+    </div>
+  )
+}
+
+  handleSearchChange = async (e)  => {
+    // console.log(e.target.value);
+    await this.setState({search: e.target.value});
+  }
+
 /* Search bar needs to group up monday companies and tuesday companies
       and get centered 
-                       
-  renderSearch(){
+*/                     
+  renderSearch() {
     return(
-      <Autocomplete
-        freeSolo
-        id="text-input"
-        style={{ width: 1000 }}
-        disableClearable
-        options={mondayData.map((option) => option.name)}
-        renderInput={(params) => (
-          <TextField
-            {...params}
-            label="Search for a company"
-            margin="normal"
-            variant="outlined"
-            InputProps={{ ...params.InputProps, type: 'search' }}
-          />
-        )}
-      />
+      <div id="searchInput" >
+        <AppBar
+          color="inherit"
+          position="fixed"
+        >
+          <Toolbar>
+            <div id="searchInput" >
+            <img id="pic" src={require("../assets/shpelogo.png")} />
+              <TextField
+                id = "serach"
+                label="Search a Company"
+                type="text"
+                variant="standard"
+                onChange={(e) => this.handleSearchChange(e)}
+                value={this.state.search}
+              />
+            </div>
+          </Toolbar>
+        </AppBar>
+      </div>
     );
   }
-*/
 
-  showModal = (bool, companyName, day) => {
+
+  showModal = (bool, companyName) => {
     let img;
     companyData.map(company => {
       if (this.state.currCompany === company.name) {
@@ -70,7 +130,6 @@ constructor(props) {
     this.setState({
       currCompany: companyName,
       show: bool,
-      day: day,
       image: img,
     });
   };
@@ -125,10 +184,7 @@ constructor(props) {
               {
               companyData.map(company => {
                 if (this.state.currCompany === company.name) {
-                  return <img style={{
-                    height: '300px', 
-                    width: '100%' 
-                    }} src={company.img} />;
+                  return <img id="img" src={company.img} />;
                 }
               })
             }
@@ -159,42 +215,49 @@ constructor(props) {
     );
   }
 
-  renderMonday(props){
+  renderMonday(props) {
+    let filterComanies = mondayData.filter(company => {
+      return company.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
+    });
     return (
       <Grid container className = 'layout'>
-          {mondayData.map((company) => 
-           <Card className = 'cards'
-            key={ company.id }>
-              <CardActionArea onClick={() => this.showModal(true, company.name, "monday")}>
-                <CardMedia
-                  component = "img"
-                  alt = { company.name }
-                  image = { company.img }
-                  title = { company.name }
-                  
-                />
-                <CardContent  >
-                  <Typography variant="body1" color="textSecondary" component="p">
-                  { company.desc }
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
+          {
+            filterComanies.map((company) => 
+              <Card className = 'cards'
+                key={ company.id }>
+                  <CardActionArea onClick={() => this.showModal(true, company.name)}>
+                    <CardMedia
+                      component = "img"
+                      alt = { company.name }
+                      image = { company.img }
+                      title = { company.name }
+                      
+                    />
+                    <CardContent  >
+                      <Typography variant="body1" color="textSecondary" component="p">
+                      { company.desc }
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
           )};
         </Grid>
     );
   }
 
-  renderTuesday(props){
+  renderTuesday(props) {
+    let filterComanies = tuesdayData.filter(company => {
+      return company.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
+    });
     return (
       <Grid container className = 'layout'>
-          {tuesdayData.map((company) => 
+          {filterComanies.map((company) => 
            <Card className = 'cards'
             key={ company.id }>
-              <CardActionArea onClick={() => this.showModal(true, company.name, "tuesday")} >
+              <CardActionArea onClick={() => this.showModal(true, company.name)} >
                 <CardMedia
                   component = "img"
-                  alt = { company.name }
+                  alt = { company.name }s
                   image = { company.img }
                   title = { company.name }
                 />
@@ -212,17 +275,18 @@ constructor(props) {
 
 
 
-  render(){
+  render() {
 	  return(
 		  <div id = "home">
-        <h1 className = "text">
+        {/* <h1 className = "text">
           SHPE UCF BBQ
-        </h1>
-        {/* this.renderSearch() */}
+        </h1> */}
+        { this.renderSearch() }
+        { this.renderHeader() }
         { this.renderDialog() }
-        <h1 className = "text">Monday</h1>
+        {/* <h1 className = "text">Monday</h1> */}
 			    { this.renderMonday() }
-        <h1 className = "text">Tuesday</h1>
+        {/* <h1 className = "text">Tuesday</h1> */}
 			    { this.renderTuesday() }
 		  </div>
 	  );

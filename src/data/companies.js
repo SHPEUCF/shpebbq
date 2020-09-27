@@ -72,7 +72,7 @@ export const mondayData = [
     {
       name: "PwC", 
       img: require("../assets/pwc.png"),
-      desc: "We connect people with diverse backgrounds and skills to solve important problems together for our clients, our communities and the world",
+      desc: "We connect people with diverse backgrounds and skills to solve important problems together for our clients, our communities and the world.",
       link: null,
       id: 11
     },
@@ -93,7 +93,7 @@ export const mondayData = [
     {
       name: "Thales", 
       img: require("../assets/thales.png"),
-      desc: "Global leader investing in digital innovations, connectivity, big data, artificial intelligence, cybersecurity and quantum technology",
+      desc: "Global leader investing in digital innovations, connectivity, big data, artificial intelligence, cybersecurity and quantum technology.",
       link: null,
       id: 14
     },
@@ -124,7 +124,7 @@ export const mondayData = [
     {
       name: "Enercon", 
       img: require("../assets/enercon.png"),
-      desc: "A multi-disciplinary engineering and environmental firm focused on empowering our people and our clients",
+      desc: "A multi-disciplinary engineering and environmental firm focused on empowering our people and our clients.",
       link: null,
       id: 3
     },
