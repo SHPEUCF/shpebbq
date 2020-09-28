@@ -27,13 +27,13 @@ export const mondayData = [
       link: null,
       id: 4
     },
-    // {
-    //   name: "Embraer", 
-    //   img: require("../assets/embraer.png"),
-    //   desc: "We use design, imaginative engineering, and technology as the principle tools to create new perspectives, and arrive at solutions.",
-    //   link: null,
-    //   id: 5
-    // },
+    {
+      name: "Embraer", 
+      img: require("../assets/embraer.png"),
+      desc: "We use design, imaginative engineering, and technology as the principle tools to create new perspectives, and arrive at solutions.",
+      link: null,
+      id: 5
+    },
     {
       name: "Gartner", 
       img: require("../assets/gartner.jpg"),

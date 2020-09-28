@@ -32,18 +32,18 @@ export const companyData = [
       title: "MODERN, MOBILE, AND ON A MISSION",
       desc: "Are you interested in becoming part of a growing and dynamic team that’s dedicated to providing HR tech to the organizations serving our community? If so, check out our careers site to view available positions and apply today!",
       link: "https://datishrcloud.e3applicants.com/",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/97775181774",
       id: 4
     },
-    // {
-    //   name: "Embraer", 
-    //   img: require("../assets/embrearPretty.jpg"),
-    //   title: "We are a company with education etched into our DNA.",
-    //   desc: "The development and refinement of our professionals is essential to our Corporate Education model, which offers continued learning as a way for professionals to build on their expertise and support the growth of our business.",
-    //   link: "https://embraer.com/global/en/programs",
-    //   zoomLink: "https://ucf.zoom.us/j/97041821868",
-    //   id: 5
-    // },
+    {
+      name: "Embraer", 
+      img: require("../assets/embrearPretty.jpg"),
+      title: "We are a company with education etched into our DNA.",
+      desc: "The development and refinement of our professionals is essential to our Corporate Education model, which offers continued learning as a way for professionals to build on their expertise and support the growth of our business.",
+      link: "https://embraer.com/global/en/programs",
+      zoomLink: "https://ucf.zoom.us/j/97041821868",
+      id: 5
+    },
     {
       name: "Gartner", 
       img: require("../assets/gartnerPretty.jpg"),

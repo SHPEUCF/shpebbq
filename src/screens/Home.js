@@ -66,6 +66,14 @@ renderHeader() {
             RSVP form
           </Button>
         </Tooltip>
+        {/* <Tooltip title="Click me to fill out our SHPE Industry BBQ Student RSVP form">
+          <Button 
+            color="inherit" 
+            onClick={() => {window.open('https://docs.google.com/forms/d/e/1FAIpQLSe262y4DPdW_cFpWoFnTRTtwEAnOc9iHj7tqzVBGPtMzWdLNw/viewform', "_blank")}}
+          >
+            Welcome Video
+          </Button>
+        </Tooltip> */}
     </div>
   )
 }
