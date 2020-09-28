@@ -55,7 +55,16 @@ renderHeader() {
             color="inherit" 
             onClick={() => {window.open('https://www.youtube.com/watch?v=PP4jmuVr96c&feature=youtu.be', "_blank")}}
           >
-          Onboarding Video</Button>
+            Onboarding Video
+          </Button>
+        </Tooltip>
+        <Tooltip title="Click me to fill out our SHPE Industry BBQ Student RSVP form">
+          <Button 
+            color="inherit" 
+            onClick={() => {window.open('https://docs.google.com/forms/d/e/1FAIpQLSe262y4DPdW_cFpWoFnTRTtwEAnOc9iHj7tqzVBGPtMzWdLNw/viewform', "_blank")}}
+          >
+            RSVP form
+          </Button>
         </Tooltip>
     </div>
   )
@@ -258,7 +267,9 @@ renderHeader() {
         {/* { this.renderTuesday() } */}
 
         <h6 id="footer">
-          Brought to you by the Shpe UCF Tech Committee
+          Brought to you by the <a className="ref" target="_blank" href="https://tech.shpeucf.com/" >Shpe UCF Tech Committee.</a>
+          <br></br>
+          Want to learn more about Shpe UCF check out our youtube channel <a className="ref" target="_blank" href="https://www.youtube.com/user/shpeucfchapter">SHPE UCF</a>
         </h6>
 		  </div>
 	  );

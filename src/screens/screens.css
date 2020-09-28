@@ -61,3 +61,8 @@ body {
 #footer {
     color: white;
 }
+
+.ref {
+    color: #bd9e06;
+    text-decoration: none;
+}
