@@ -45,8 +45,8 @@ constructor(props) {
 renderHeader() {
   return (
     <div id="header">
- 
-      <img id="headImg" src={require("../assets/bbqBlack.jpg")}/>
+      <br></br>
+      <img id="headImg" src={require("../assets/bbqLogo.png")}/>
       {/* <h3></h3>
         <Tooltip title="Click me to watch a quick onboarding video on how to use our site.">
           <Button 

@@ -40,10 +40,10 @@ body {
     color: white;
 }
 
-#headImg {
+/* #headImg {
     height: 400px;
     width: 450px;
-}
+} */
 
 #searchInput {
     display: flex;
