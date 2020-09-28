@@ -45,7 +45,6 @@ constructor(props) {
 renderHeader() {
   return (
     <div id="header">
- 
       {/* <img id="headImg" src={require("../assets/bbqBlack.jpg")}/> */}
       <br></br>
       <br></br>
