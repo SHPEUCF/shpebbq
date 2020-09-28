@@ -1,5 +1,5 @@
 body {
-    background: url(../assets/bbqBlack.jpg)  center fixed;
+    background-color: black;
 }
 
 #home .layout {
@@ -38,7 +38,11 @@ body {
 
 #header {
     color: white;
-    margin: 15px;
+}
+
+#headImg {
+    height: 400px;
+    width: 450px;
 }
 
 #searchInput {

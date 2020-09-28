@@ -46,22 +46,15 @@ renderHeader() {
   return (
     <div id="header">
  
-      {/* <img id="headImg" src={require("../assets/bbqBlack.jpg")}/> */}
-      <br></br>
-      <br></br>
-      <br></br>
-      <h1>Welcome to the SHPE BBQ Website</h1>
-        <h3>
-
-        </h3>
+      <img id="headImg" src={require("../assets/bbqBlack.jpg")}/>
+      {/* <h3></h3>
         <Tooltip title="Click me to watch a quick onboarding video on how to use our site.">
-        {/* put shpe onboarding vid were the youtube home page link is */}
           <Button 
             color="inherit" 
             onClick={() => {window.open('https://www.youtube.com/watch?v=gdZLi9oWNZg&ab_channel=BigHitLabels', "_blank")}}
           >
           Onboarding Video</Button>
-        </Tooltip>
+        </Tooltip> */}
     </div>
   )
 }
