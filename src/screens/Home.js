@@ -48,7 +48,7 @@ renderHeader() {
       <br></br>
       <img id="headImg" src={require("../assets/bbqLogo.png")}/>
       <h4>
-      Welcome to SHPE UCF's 2020 Virtual Industry BBQ! <br></br><br></br>Please fill out the RSVP form and watch the tutorial by clicking the buttons below.<br></br> Paid SHPE UCF member's resumes will be shared with the participating companies upon request.
+      Welcome to SHPE UCF's 2020 Virtual Industry BBQ! <br></br><br></br>Please fill out the RSVP form and watch the tutorial by clicking the buttons below.<br></br> Paid SHPE UCF members will have resumes shared with the participating companies upon request.
       </h4>
         <Tooltip title="Click me to watch a quick video on how to use our site.">
           <Button 
