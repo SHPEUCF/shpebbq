@@ -48,14 +48,14 @@ renderHeader() {
       <br></br>
       <img id="headImg" src={require("../assets/bbqLogo.png")}/>
       <h3>
-        Welcome to SHPE UCF's 2020 Virtual Industry BBQ! If you are a paid member, please fill out the resume form by clicking the button below. You can also learn how to use this site by clicking the tutorial button.
+        Welcome to SHPE UCF's 2020 Virtual Industry BBQ! If you are a paid member, please fill out the RSVP form by clicking the button below. You can also learn how to use this site by clicking the tutorial button.
       </h3>
         <Tooltip title="Click me to watch a quick onboarding video on how to use our site.">
           <Button 
             color="inherit" 
             onClick={() => {window.open('https://www.youtube.com/watch?v=PP4jmuVr96c&feature=youtu.be', "_blank")}}
           >
-            Onboarding Video
+            Tutorial Video
           </Button>
         </Tooltip>
         <Tooltip title="Click me to fill out our SHPE Industry BBQ Student RSVP form">
