@@ -70,10 +70,7 @@ renderHeader() {
     // console.log(e.target.value);
     await this.setState({search: e.target.value});
   }
-
-/* Search bar needs to group up monday companies and tuesday companies
-      and get centered 
-*/                     
+                   
   renderSearch() {
     return(
       <div id="searchInput" >
@@ -86,7 +83,7 @@ renderHeader() {
             <div id="searchInput" >
             <img id="pic" src={require("../assets/shpelogo.png")} />
               <TextField
-                id = "serach"
+                id = "search"
                 label="Search a Company"
                 type="text"
                 variant="standard"
@@ -197,13 +194,13 @@ renderHeader() {
   }
 
   renderMonday(props) {
-    let filterComanies = mondayData.filter(company => {
+    let filterCompanies = mondayData.filter(company => {
       return company.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
     });
     return (
       <Grid container className = 'layout'>
           {
-            filterComanies.map((company) => 
+            filterCompanies.map((company) => 
               <Card className = 'cards'
                 key={ company.id }>
                   <CardActionArea onClick={() => this.showModal(true, company.name)}>
@@ -227,12 +224,12 @@ renderHeader() {
   }
 
   renderTuesday(props) {
-    let filterComanies = tuesdayData.filter(company => {
+    let filterCompanies = tuesdayData.filter(company => {
       return company.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
     });
     return (
       <Grid container className = 'layout'>
-          {filterComanies.map((company) => 
+          {filterCompanies.map((company) => 
            <Card className = 'cards'
             key={ company.id }>
               <CardActionArea onClick={() => this.showModal(true, company.name)} >
@@ -259,16 +256,11 @@ renderHeader() {
   render() {
 	  return(
 		  <div id = "home">
-        {/* <h1 className = "text">
-          SHPE UCF BBQ
-        </h1> */}
         { this.renderSearch() }
         { this.renderHeader() }
         { this.renderDialog() }
-        {/* <h1 className = "text">Monday</h1> */}
-			    { this.renderMonday() }
-        {/* <h1 className = "text">Tuesday</h1> */}
-			    {/* { this.renderTuesday() } */}
+        { this.renderMonday() }
+        {/* { this.renderTuesday() } */}
 		  </div>
 	  );
   }
