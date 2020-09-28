@@ -45,34 +45,14 @@ constructor(props) {
 renderHeader() {
   return (
     <div id="header">
+ 
+      {/* <img id="headImg" src={require("../assets/bbqBlack.jpg")}/> */}
       <br></br>
       <br></br>
       <br></br>
       <h1>Welcome to the SHPE BBQ Website</h1>
         <h3>
-          'Cause I-I-I'm in the stars tonight
-          So watch me bring the fire and set the night alight (hey)
-          Shining through the city with a little funk and soul
-          So I'ma light it up like dynamite, whoa
-          This is getting heavy
-          Can you hear the bass boom? I'm ready (woo hoo)
-          Life is sweet as honey
-          Yeah, this beat cha-ching like money
-          Disco overload, I'm into that, I'm good to go
-          I'm diamond, you know I glow up
-          Let's go
-          'Cause I-I-I'm in the stars tonight
-          So watch me bring the fire and set the night alight (hey)
-          Shining through the city with a little funk and soul
-          So I'ma light it up like dynamite, whoa
-          Dy-na-na-na, na-na, na-na-na, na-na, life is dynamite
-          Dy-na-na-na, na-na, na-na-na, na-na, life is dynamite
-          Shining through the city with a little funk and soul
-          So I'ma light it up like dynamite, whoa
-          Dy-na-na-na, na-na, na-na, ayy
-          Dy-na-na-na, na-na, na-na, ayy
-          Dy-na-na-na, na-na, na-na, ayy
-          Light it up like dynamite
+
         </h3>
         <Tooltip title="Click me to watch a quick onboarding video on how to use our site.">
         {/* put shpe onboarding vid were the youtube home page link is */}
@@ -98,6 +78,7 @@ renderHeader() {
     return(
       <div id="searchInput" >
         <AppBar
+          id="appbar"
           color="inherit"
           position="fixed"
         >
@@ -287,7 +268,7 @@ renderHeader() {
         {/* <h1 className = "text">Monday</h1> */}
 			    { this.renderMonday() }
         {/* <h1 className = "text">Tuesday</h1> */}
-			    { this.renderTuesday() }
+			    {/* { this.renderTuesday() } */}
 		  </div>
 	  );
   }

@@ -5,7 +5,7 @@ export const companyData = [
       title: "Come innovate with us",
       desc: "Join our diverse group of innovators, working together to solve industries’ and organizations’ most challenging problems. Use leading-edge technologies and strategies to reinvent the way every job is done and help improve the way the world works and lives.",
       link: "https://www.accenture.com/us-en/careers",
-      zoomLink: "https://ucf.zoom.us/j/99155205514",
+      zoomLink: "https://ucf.zoom.us/j/96698390587",
       id: 1
     },
     {
@@ -23,7 +23,7 @@ export const companyData = [
       title: "Don't Just Consult. Innovate. Execel. Grow.",
       desc: "Immerse yourself in a culture of constant learning, share knowledge with industry experts and help us bring tomorrow forward.",
       link: "https://www.capco.com/careers",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/5739062432 ",
       id: 3
     },
     {
@@ -41,7 +41,7 @@ export const companyData = [
       title: "We are a company with education etched into our DNA.",
       desc: "The development and refinement of our professionals is essential to our Corporate Education model, which offers continued learning as a way for professionals to build on their expertise and support the growth of our business.",
       link: "https://embraer.com/global/en/programs",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/97041821868",
       id: 5
     },
     {
@@ -50,7 +50,7 @@ export const companyData = [
       title: "Make an impact every day",
       desc: "Looking for a rewarding career, collaborative team and unlimited opportunities to grow? You’ve come to the right place.",
       link: "https://jobs.gartner.com/",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/98065271165",
       id: 6
     },
     {
@@ -59,7 +59,7 @@ export const companyData = [
       title: "Consider if we're a fit for you",
       desc: "We pride ourselves on our company culture based upon our core values. These five reasons articulate the firmwide promise that we deliver to our employees.",
       link: "https://careers.jpmorgan.com/us/en/home",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/97376356077",
       id: 7
     },
     {
@@ -68,7 +68,7 @@ export const companyData = [
       title: "Our Missions and Values",
       desc: "There are jobs and there are careers. But at NASA, our work is more than just a profession—it’s a lifelong pursuit, a passion—and a chance to change the history of humanity. ",
       link: "https://www.nasa.gov/careers/benefits",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/93969325389",
       id: 8
     },
     {
@@ -77,7 +77,7 @@ export const companyData = [
       title: "Looking for a great place to start your career?",
       desc: "At Kimley-Horn, we know that today’s entry-level candidates are highly engaged, technically adept, and that their new perspectives play an essential role in the long-term success of our firm. We search for talented individuals from colleges and universities across the country who strive for excellence, have a passion for learning, and possess an entrepreneurial spirit that complements the ever-changing needs of our clients.",
       link: "https://www.kimley-horn.com/join-our-team/working-at-kimley-horn/students/",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/9290098928",
       id: 9
     },
     {
@@ -86,7 +86,7 @@ export const companyData = [
       title: "Lockheed Martin. Your Mission is Ours.",
       desc: "We solve complex challenges, advance scientific discovery and deliver innovative solutions to help our customers keep people safe.",
       link: "https://www.lockheedmartinjobs.com/",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/94849629639",
       id: 10
     },
     {
@@ -95,7 +95,7 @@ export const companyData = [
       title: "At PwC, it starts with you",
       desc: "PwC is all about you. Your personal and professional development, your achievement, your lifelong learning, your individuality and your choices. Whether you're just starting out or an experienced professional, your future starts here.",
       link: "https://www.pwc.com/us/en/careers.html",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/9290098928",
       id: 11
     },
     {
@@ -104,7 +104,7 @@ export const companyData = [
       title: "The Sandia intern experience — meaningful work and enjoyable play",
       desc: "Are you looking for research experience with top scientists/engineers? Would you like an employer-paid graduate degree? Sandia welcomes student interns, co-ops, and postdoctoral fellows. We provide world-class mentoring and opportunities to research issues of global significance. Sandia is the perfect place to jump-start your career.",
       link: "https://www.sandia.gov/careers/students_postdocs/",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/99510974500",
       id: 12
     },
     {
@@ -113,7 +113,7 @@ export const companyData = [
       title: "Why choose TI",
       desc: "At Texas Instruments, competitive pay is just the beginning. Our vibrant culture is based on our values of being trustworthy, inclusive, innovative, competitive and results-oriented. We offer a variety of benefits that help you and your family thrive.",
       link: "https://careers.ti.com/",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/93671032553",
       id: 13
     },
     {
@@ -122,7 +122,7 @@ export const companyData = [
       title: "Careers at Thales, Building a future we can all trust",
       desc: "The opportunities at Thales are as limitless as the boundaries of engineering, science and technology. We're growing all the time and wherever we go and whatever we do, our people grow with us. We give talented and innovative individuals the chance to explore varied career paths in a challenging and rewarding international environment. We understand just how rare truly exceptional people are, so we'll invest the same innovation, time and care into your career that we put into each of our fascinating projects.",
       link: "https://www.thalesgroup.com/en/career",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/91035581425",
       id: 14
     },
     {
@@ -131,7 +131,7 @@ export const companyData = [
       title: "OUR MISSION CONTINUES",
       desc: "In the face of an enemy, we must all stand strong. Your skills are essential to keep the Navy mission-ready. Follow the link below to find out how we've adjusted our program to keep our Future Sailors and their families safe.",
       link: "https://www.navy.com/careers",
-      zoomLink: "https://www.youtube.com/",
+      zoomLink: "https://ucf.zoom.us/j/97732107038",
       id: 15
     },
     {
@@ -209,10 +209,28 @@ export const companyData = [
       {
         name: "Microsoft", 
         img: require("../assets/microsoftPretty.jpg"),
-        title: "Our culture",
+        title: "At Microsoft, Our culture",
         desc: "We will only achieve our mission if we live our culture. We start with becoming learners in all things—having a growth mindset. Then we apply that mindset to learning about our customers, being diverse and inclusive, working together as one, and—ultimately—making a difference in the world.",
         link: "https://careers.microsoft.com/us/en",
         zoomLink: "https://www.youtube.com/",
         id: 25
+      },
+      {
+        name: "Collins Aerospace", 
+        img: require("../assets/collins.jpg"),
+        title: "Why Collins",
+        desc: "ith nearly 300 global sites, we attract professionals from around the world who are as intrigued as we are about the possibilities of aerospace and defense. Our workplaces are where people from different backgrounds, experiences and perspectives unite. Together, we create breakthroughs far superior to anything that might be accomplished alone. That’s the power of people, working shoulder-to-shoulder, on a global stage.",
+        link: "https://jobs.collinsaerospace.com/",
+        zoomLink: "https://www.youtube.com/",
+        id: 26
+      },
+      {
+        name: "Jacobs", 
+        img: require("../assets/jacobsPretty.jpg"),
+        title: "Jacobs. A world where you can.",
+        desc: "What drives you drives us as we work to build a better world – together. At Jacobs, every day is an opportunity to make the world better, more connected, more sustainable. We’re powered by more than 50,000 people across the globe who deliver innovative scientific, technical, professional and program-management solutions for public and private clients around the world.",
+        link: "https://www.jacobs.com/careers",
+        zoomLink: "https://www.youtube.com/",
+        id: 27
       }
   ]

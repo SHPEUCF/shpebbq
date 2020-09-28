@@ -1,5 +1,5 @@
 body {
-    background: url(../assets/background.gif)  center fixed;
+    background: url(../assets/bbqBlack.jpg)  center fixed;
 }
 
 #home .layout {
@@ -37,7 +37,6 @@ body {
 }
 
 #header {
-    background-color: #434445;
     color: white;
     margin: 15px;
 }

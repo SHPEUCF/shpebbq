@@ -197,5 +197,19 @@ export const mondayData = [
       desc: "Transform Your Life and Become Part of Something Bigger. Learn More About Naval Careers.",
       link: null,
       id: 13
+    },
+    {
+      name: "Collins Aerospace", 
+      img: require("../assets/collinsAero.jpeg"),
+      desc: "The resources to learn and grow, as well as to advance into leadership roles, are everywhere. Training programs, eLearning modules, lunch-and-learns and seminars develop skillsets and teach new ones.",
+      link: null,
+      id: 14
+    },
+    {
+      name: "Jacobs", 
+      img: require("../assets/jacob.png"),
+      desc: "We’re always looking for dynamic and engaged people to join our team. Bring your passion, your ingenuity and your vision. Let’s see the impact we can create, together.",
+      link: null,
+      id: 15
     }
   ]
