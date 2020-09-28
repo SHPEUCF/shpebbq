@@ -38,6 +38,7 @@ body {
 
 #header {
     color: white;
+    margin: 10px;
 }
 
 /* #headImg {
@@ -57,3 +58,6 @@ body {
     width: 50px;
 }
 
+#footer {
+    color: white;
+}

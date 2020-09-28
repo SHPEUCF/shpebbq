@@ -47,14 +47,16 @@ renderHeader() {
     <div id="header">
       <br></br>
       <img id="headImg" src={require("../assets/bbqLogo.png")}/>
-      {/* <h3></h3>
+      <h3>
+        Welcome to SHPE UCF's 2020 Virtual Industry BBQ! If you are a paid member, please fill out the resume form by clicking the button below. You can also learn how to use this site by clicking the tutorial button.
+      </h3>
         <Tooltip title="Click me to watch a quick onboarding video on how to use our site.">
           <Button 
             color="inherit" 
-            onClick={() => {window.open('https://www.youtube.com/watch?v=gdZLi9oWNZg&ab_channel=BigHitLabels', "_blank")}}
+            onClick={() => {window.open('https://www.youtube.com/watch?v=PP4jmuVr96c&feature=youtu.be', "_blank")}}
           >
           Onboarding Video</Button>
-        </Tooltip> */}
+        </Tooltip>
     </div>
   )
 }
@@ -77,7 +79,7 @@ renderHeader() {
             <img id="pic" src={require("../assets/shpelogo.png")} />
               <TextField
                 id = "search"
-                label="Search a Company"
+                label="Search for a Company"
                 type="text"
                 variant="standard"
                 onChange={(e) => this.handleSearchChange(e)}
@@ -254,6 +256,10 @@ renderHeader() {
         { this.renderDialog() }
         { this.renderMonday() }
         {/* { this.renderTuesday() } */}
+
+        <h6 id="footer">
+          Brought to you by the Shpe UCF Tech Committee
+        </h6>
 		  </div>
 	  );
   }
