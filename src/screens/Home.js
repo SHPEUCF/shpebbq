@@ -3,7 +3,6 @@ import React from 'react';
 import './screens.css';
 import { mondayData, tuesdayData } from '../data/companies';
 import { companyData } from '../data/companiesData';
-import Autocomplete from '@material-ui/lab/Autocomplete';
 import {
   AppBar,
   Avatar,
@@ -34,6 +33,7 @@ constructor(props) {
   super(props)
   this.state = {
     show : false,
+    showVideo : true,
     currCompany: "",
     image: "",
     search: "",
@@ -47,13 +47,13 @@ renderHeader() {
     <div id="header">
       <br></br>
       <img id="headImg" src={require("../assets/bbqLogo.png")}/>
-      <h3>
-        Welcome to SHPE UCF's 2020 Virtual Industry BBQ! If you are a paid member, please fill out the RSVP form by clicking the button below. You can also learn how to use this site by clicking the tutorial button.
-      </h3>
-        <Tooltip title="Click me to watch a quick onboarding video on how to use our site.">
+      <h4>
+      Welcome to SHPE UCF's 2020 Virtual Industry BBQ! <br></br><br></br>Please fill out the RSVP form and watch the tutorial by clicking the buttons below.<br></br> Paid SHPE UCF member's resumes will be shared with the participating companies upon request.
+      </h4>
+        <Tooltip title="Click me to watch a quick video on how to use our site.">
           <Button 
             color="inherit" 
-            onClick={() => {window.open('https://www.youtube.com/watch?v=PP4jmuVr96c&feature=youtu.be', "_blank")}}
+            onClick={ () => { window.open('https://www.youtube.com/watch?v=6TY12PnG8eg', "_blank") } }
           >
             Tutorial Video
           </Button>
@@ -61,23 +61,38 @@ renderHeader() {
         <Tooltip title="Click me to fill out our SHPE Industry BBQ Student RSVP form">
           <Button 
             color="inherit" 
-            onClick={() => {window.open('https://docs.google.com/forms/d/e/1FAIpQLSe262y4DPdW_cFpWoFnTRTtwEAnOc9iHj7tqzVBGPtMzWdLNw/viewform', "_blank")}}
+            onClick={ () => { window.open('https://docs.google.com/forms/d/e/1FAIpQLSe262y4DPdW_cFpWoFnTRTtwEAnOc9iHj7tqzVBGPtMzWdLNw/viewform', "_blank") } }
           >
             RSVP form
           </Button>
         </Tooltip>
-        {/* <Tooltip title="Click me to fill out our SHPE Industry BBQ Student RSVP form">
-          <Button 
-            color="inherit" 
-            onClick={() => {window.open('https://docs.google.com/forms/d/e/1FAIpQLSe262y4DPdW_cFpWoFnTRTtwEAnOc9iHj7tqzVBGPtMzWdLNw/viewform', "_blank")}}
-          >
-            Welcome Video
-          </Button>
-        </Tooltip> */}
     </div>
   )
 }
-
+renderVideoDialog() {
+  return (
+    <div>
+      <Dialog
+        open= { this.state.showVideo }
+        onClose= { () => this.hideModal(false) }
+      >
+        <DialogTitle>
+          A Message from Our President
+        </DialogTitle>
+        <DialogContent>
+          <DialogContent>
+          <iframe width="500" height="315" src="https://www.youtube-nocookie.com/embed/_bLta_fWIYM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </DialogContent>
+        </DialogContent>
+        <DialogActions>
+          <Button size="small" color="primary" onClick={ () => this.hideModal(false) }>
+                Close
+          </Button>
+        </DialogActions>
+      </Dialog>
+    </div>
+  );
+}
   handleSearchChange = async (e)  => {
     // console.log(e.target.value);
     await this.setState({search: e.target.value});
@@ -126,7 +141,8 @@ renderHeader() {
 
   hideModal = (val) => {
     this.setState({
-      show: val
+      show: val,
+      showVideo: val
     });
   };
 
@@ -159,7 +175,6 @@ renderHeader() {
           open={this.state.show}
           onClose={() => this.hideModal(false)}
         >
-          {/* <DialogTitle>{this.state.currCompany}</DialogTitle> */}
           <DialogTitle>
             {
               companyData.map(company => {
@@ -268,17 +283,21 @@ renderHeader() {
   render() {
 	  return(
 		  <div id = "home">
+        { this.renderVideoDialog() }
         { this.renderSearch() }
         { this.renderHeader() }
         { this.renderDialog() }
         { this.renderMonday() }
         {/* { this.renderTuesday() } */}
-
-        <h6 id="footer">
-          Brought to you by the <a className="ref" target="_blank" href="https://tech.shpeucf.com/" >Shpe UCF Tech Committee.</a>
-          <br></br>
-          Want to learn more about Shpe UCF check out our youtube channel <a className="ref" target="_blank" href="https://www.youtube.com/user/shpeucfchapter">SHPE UCF</a>
-        </h6>
+        <div id="footer">
+          <img id="pic2" src={require("../assets/career_services.png")} />
+          <h6 id="footerText">
+            Brought to you by the <a className="ref" target="_blank" href="https://tech.shpeucf.com/" >SHPE UCF Tech Committee.</a>
+            <br></br>
+            Want to learn more about SHPE UCF? Check out our Youtube channel - <a className="ref" target="_blank" href="https://www.youtube.com/user/shpeucfchapter">SHPE UCF</a>
+          </h6>
+          <img id="pic3" src={require("../assets/ODI.png")} />
+        </div>
 		  </div>
 	  );
   }
