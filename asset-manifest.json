@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.56c15e23.chunk.css",
-    "main.js": "/static/js/main.e0300c6d.chunk.js",
-    "main.js.map": "/static/js/main.e0300c6d.chunk.js.map",
+    "main.css": "/static/css/main.a767fc35.chunk.css",
+    "main.js": "/static/js/main.fec50153.chunk.js",
+    "main.js.map": "/static/js/main.fec50153.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b0039764.js",
     "runtime-main.js.map": "/static/js/runtime-main.b0039764.js.map",
-    "static/js/2.4ba8dce3.chunk.js": "/static/js/2.4ba8dce3.chunk.js",
-    "static/js/2.4ba8dce3.chunk.js.map": "/static/js/2.4ba8dce3.chunk.js.map",
+    "static/js/2.58dd70e1.chunk.js": "/static/js/2.58dd70e1.chunk.js",
+    "static/js/2.58dd70e1.chunk.js.map": "/static/js/2.58dd70e1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3b99307226e0b5ae57be6c41fe3a8cef.js": "/precache-manifest.3b99307226e0b5ae57be6c41fe3a8cef.js",
+    "precache-manifest.eeb91847667408dc407a44ec24ee6bd8.js": "/precache-manifest.eeb91847667408dc407a44ec24ee6bd8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.56c15e23.chunk.css.map": "/static/css/main.56c15e23.chunk.css.map",
-    "static/js/2.4ba8dce3.chunk.js.LICENSE.txt": "/static/js/2.4ba8dce3.chunk.js.LICENSE.txt",
+    "static/css/main.a767fc35.chunk.css.map": "/static/css/main.a767fc35.chunk.css.map",
+    "static/js/2.58dd70e1.chunk.js.LICENSE.txt": "/static/js/2.58dd70e1.chunk.js.LICENSE.txt",
     "static/media/IBM.png": "/static/media/IBM.798e67df.png",
     "static/media/JohnDeereC.jpg": "/static/media/JohnDeereC.7c59811b.jpg",
     "static/media/KSC.jpg": "/static/media/KSC.3c60ff68.jpg",
@@ -21,7 +21,7 @@
     "static/media/accenturePretty.jpg": "/static/media/accenturePretty.1ff932bf.jpg",
     "static/media/aerion.jpg": "/static/media/aerion.5c553cb5.jpg",
     "static/media/aerionPretty.png": "/static/media/aerionPretty.e8eea22e.png",
-    "static/media/screens.css": "/static/media/bbqBlack.0048217f.jpg",
+    "static/media/bbqBlack.jpg": "/static/media/bbqBlack.0048217f.jpg",
     "static/media/capco.jpg": "/static/media/capco.df28e14a.jpg",
     "static/media/capcoOther.jpg": "/static/media/capcoOther.31e2f6f4.jpg",
     "static/media/collins.jpg": "/static/media/collins.b5aa2284.jpg",
@@ -68,8 +68,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b0039764.js",
-    "static/js/2.4ba8dce3.chunk.js",
-    "static/css/main.56c15e23.chunk.css",
-    "static/js/main.e0300c6d.chunk.js"
+    "static/js/2.58dd70e1.chunk.js",
+    "static/css/main.a767fc35.chunk.css",
+    "static/js/main.fec50153.chunk.js"
   ]
 }
