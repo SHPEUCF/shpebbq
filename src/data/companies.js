@@ -107,13 +107,13 @@ export const mondayData = [
   ]
 
   export const tuesdayData = [
-    {
-      name: "Accenture", 
-      img: require("../assets/accenture.jpg"),
-      desc: "Unleash your talents and apply the new, now with a career that disrupts and transforms every industry in every country.",
-      link: null,
-      id: 1
-    },
+    // {
+    //   name: "Accenture", 
+    //   img: require("../assets/accenture.jpg"),
+    //   desc: "Unleash your talents and apply the new, now with a career that disrupts and transforms every industry in every country.",
+    //   link: null,
+    //   id: 1
+    // },
     {
       name: "Disney", 
       img: require("../assets/disney.jpg"),
@@ -123,7 +123,7 @@ export const mondayData = [
     },
     {
       name: "Enercon", 
-      img: require("../assets/enercon.png"),
+      img: require("../assets/enerconAct.png"),
       desc: "A multi-disciplinary engineering and environmental firm focused on empowering our people and our clients.",
       link: null,
       id: 3
@@ -191,13 +191,13 @@ export const mondayData = [
       link: null,
       id: 12
     },
-    {
-      name: "U.S. Navy", 
-      img: require("../assets/navy.png"),
-      desc: "Transform Your Life and Become Part of Something Bigger. Learn More About Naval Careers.",
-      link: null,
-      id: 13
-    },
+    // {
+    //   name: "U.S. Navy", 
+    //   img: require("../assets/navy.png"),
+    //   desc: "Transform Your Life and Become Part of Something Bigger. Learn More About Naval Careers.",
+    //   link: null,
+    //   id: 13
+    // },
     {
       name: "Collins Aerospace", 
       img: require("../assets/collinsAero.jpeg"),
@@ -211,5 +211,12 @@ export const mondayData = [
       desc: "We’re always looking for dynamic and engaged people to join our team. Bring your passion, your ingenuity and your vision. Let’s see the impact we can create, together.",
       link: null,
       id: 15
+    },
+    {
+      name: "Aerojet Rocketdyne", 
+      img: require("../assets/aerojet-rocketdyne-logo.png"),
+      desc: "Aerojet Rocketdyne is a world-recognized aerospace and defense leader providing propulsion and energetics to its space, missile defense, strategic, tactical missile and armaments customers throughout the world.",
+      link: null,
+      id: 16
     }
   ]

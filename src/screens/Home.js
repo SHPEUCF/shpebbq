@@ -256,23 +256,25 @@ renderVideoDialog() {
     });
     return (
       <Grid container className = 'layout'>
-          {filterCompanies.map((company) => 
-           <Card className = 'cards'
-            key={ company.id }>
-              <CardActionArea onClick={() => this.showModal(true, company.name)} >
-                <CardMedia
-                  component = "img"
-                  alt = { company.name }s
-                  image = { company.img }
-                  title = { company.name }
-                />
-                <CardContent>
-                  <Typography variant="body1" color="textSecondary" component="p">
-                  { company.desc }
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
+          {
+            filterCompanies.map((company) => 
+              <Card className = 'cards'
+                key={ company.id }>
+                  <CardActionArea onClick={() => this.showModal(true, company.name)}>
+                    <CardMedia
+                      component = "img"
+                      alt = { company.name }
+                      image = { company.img }
+                      title = { company.name }
+                      
+                    />
+                    <CardContent  >
+                      <Typography variant="body1" color="textSecondary" component="p">
+                      { company.desc }
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
           )};
         </Grid>
     );

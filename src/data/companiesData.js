@@ -125,15 +125,15 @@ export const companyData = [
       zoomLink: "https://ucf.zoom.us/j/91035581425",
       id: 14
     },
-    {
-      name: "U.S. Navy", 
-      img: require("../assets/navyP.jpg"),
-      title: "OUR MISSION CONTINUES",
-      desc: "In the face of an enemy, we must all stand strong. Your skills are essential to keep the Navy mission-ready. Follow the link below to find out how we've adjusted our program to keep our Future Sailors and their families safe.",
-      link: "https://www.navy.com/careers",
-      zoomLink: "https://ucf.zoom.us/j/92246472908",
-      id: 15
-    },
+    // {
+    //   name: "U.S. Navy", 
+    //   img: require("../assets/navyP.jpg"),
+    //   title: "OUR MISSION CONTINUES",
+    //   desc: "In the face of an enemy, we must all stand strong. Your skills are essential to keep the Navy mission-ready. Follow the link below to find out how we've adjusted our program to keep our Future Sailors and their families safe.",
+    //   link: "https://www.navy.com/careers",
+    //   zoomLink: "https://ucf.zoom.us/j/92246472908",
+    //   id: 15
+    // },
     {
         name: "Disney", 
         img: require("../assets/disneyPretty.jpg"),
@@ -158,14 +158,14 @@ export const companyData = [
         title: "Do the Most Meaningful Work of Your Career",
         desc: "At Facebook, we’re bringing the world closer together. But we’re just getting started—as we like to say, the journey is just 1% finished. Join us to begin your own.",
         link: "https://www.facebook.com/careers/",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/5739062432",
         id: 18
       },
       {
         name: "Google", 
         img: require("../assets/googleStud.jpg"),
-        title: "Create, Design, Code, Build, for everyone",
-        desc: "Our mission is to organize the world’s information and make it universally accessible and useful.",
+        title: "Come Build for Everyone with us",
+        desc: "Create, Design, Code, Build, for everyone. Our mission is to organize the world’s information and make it universally accessible and useful.",
         link: "https://careers.google.com/jobs/",
         zoomLink: "https://ucf.zoom.us/j/9290098928",
         id: 19
@@ -230,6 +230,15 @@ export const companyData = [
         title: "Jacobs. A world where you can.",
         desc: "What drives you drives us as we work to build a better world – together. At Jacobs, every day is an opportunity to make the world better, more connected, more sustainable. We’re powered by more than 50,000 people across the globe who deliver innovative scientific, technical, professional and program-management solutions for public and private clients around the world.",
         link: "https://www.jacobs.com/careers",
+        zoomLink: "https://ucf.zoom.us/j/92006164312",
+        id: 27
+      },
+      {
+        name: "Aerojet Rocketdyne", 
+        img: require("../assets/rocketPretty.png"),
+        title: "Why Aerojet Rocketdyne",
+        desc: "Aerojet Rocketdyne is a world-recognized aerospace and defense leader providing propulsion and energetics to its space, missile defense, strategic, tactical missile and armaments customers throughout the world. Aerojet Rocketdyne's strategic and tactical missile programs defend America, our troops and our allies.",
+        link: "https://www.rocket.com/careers",
         zoomLink: "https://ucf.zoom.us/j/92006164312",
         id: 27
       }
