@@ -5,7 +5,7 @@ export const companyData = [
       title: "Come innovate with us",
       desc: "Join our diverse group of innovators, working together to solve industries’ and organizations’ most challenging problems. Use leading-edge technologies and strategies to reinvent the way every job is done and help improve the way the world works and lives.",
       link: "https://www.accenture.com/us-en/careers",
-      zoomLink: "https://ucf.zoom.us/j/96698390587",
+      zoomLink: "https://ucf.zoom.us/j/5739062432",
       id: 1
     },
     // {
@@ -86,7 +86,7 @@ export const companyData = [
       title: "Lockheed Martin. Your Mission is Ours.",
       desc: "We solve complex challenges, advance scientific discovery and deliver innovative solutions to help our customers keep people safe.",
       link: "https://www.lockheedmartinjobs.com/",
-      zoomLink: "https://ucf.zoom.us/j/94849629639",
+      zoomLink: "https://ucf.zoom.us/j/96124947860",
       id: 10
     },
     {
@@ -95,7 +95,7 @@ export const companyData = [
       title: "At PwC, it starts with you",
       desc: "PwC is all about you. Your personal and professional development, your achievement, your lifelong learning, your individuality and your choices. Whether you're just starting out or an experienced professional, your future starts here.",
       link: "https://www.pwc.com/us/en/careers.html",
-      zoomLink: "https://ucf.zoom.us/j/9290098928",
+      zoomLink: "https://ucf.zoom.us/j/98529680684",
       id: 11
     },
     {
@@ -131,7 +131,7 @@ export const companyData = [
       title: "OUR MISSION CONTINUES",
       desc: "In the face of an enemy, we must all stand strong. Your skills are essential to keep the Navy mission-ready. Follow the link below to find out how we've adjusted our program to keep our Future Sailors and their families safe.",
       link: "https://www.navy.com/careers",
-      zoomLink: "https://ucf.zoom.us/j/97732107038",
+      zoomLink: "https://ucf.zoom.us/j/92246472908",
       id: 15
     },
     {
@@ -140,7 +140,7 @@ export const companyData = [
         title: "Where will your story begin?",
         desc: "The Walt Disney Company entertains, informs and inspires people around the globe through the power of unparalleled storytelling, reflecting the iconic brands, creative minds and innovative technologies families have come to love for over 90 years. Whether you’re looking to create magic in our Parks and Resorts, support business growth and development, work behind-the-scenes on your favorite TV shows or upcoming movies, or anything in-between, this is your opportunity to start the next chapter of your career story and help create the exhilarating experiences Disney is known for worldwide.",
         link: "https://jobs.disneycareers.com/",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/92684452181",
         id: 16
       },
       {
@@ -149,7 +149,7 @@ export const companyData = [
         title: "Why Enercon",
         desc: "ENERCON is on a mission of transformation. We have inspiring leadership, innovative teams and powerful minds working together to propel our business and transform our world.",
         link: "https://www.enercon.com/careers/",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/94822059784",
         id: 17
       },
       {
@@ -167,7 +167,7 @@ export const companyData = [
         title: "Create, Design, Code, Build, for everyone",
         desc: "Our mission is to organize the world’s information and make it universally accessible and useful.",
         link: "https://careers.google.com/jobs/",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/9290098928",
         id: 19
       },
       {
@@ -176,7 +176,7 @@ export const companyData = [
         title: "What IBMers do",
         desc: "At IBM, work is more than a job — it's a calling. To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate. Not just to do something better, but to attempt things you've never thought possible. To lead in this new era of technology and solve some of the world's most challenging problems. Let's put smart to work.",
         link: "https://www.ibm.com/employment/SHPE2020/",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/99570310762",
         id: 20
       },
       {
@@ -185,7 +185,7 @@ export const companyData = [
         title: "Life at Intel",
         desc: "We are on a journey to be the trusted performance leader that unleashes the potential of data. We engineer solutions for our customers’ greatest challenges with reliable, cloud to edge computing, inspired by Moore’s Law.",
         link: "https://jobs.intel.com/page/show/careers",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/98824170626",
         id: 21
       },
       {
@@ -194,7 +194,7 @@ export const companyData = [
         title: "Why John Deere",
         desc: "If you strive to do great work, excel in creative environments, thrive in teams, and live for problem solving — this is the place for you. At John Deere, your ideas, experiences, and values matter. And, you're rewarded in ways that matter: through opportunities for career growth; through experiences in an inclusive, diverse culture; and, yes, through outstanding compensation and benefits programs. Why work at John Deere? Why anywhere else?",
         link: "https://www.deere.com/en/our-company/john-deere-careers/",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/91225944641",
         id: 22
       },
       {
@@ -203,7 +203,7 @@ export const companyData = [
         title: "OUR CULTURE",
         desc: "What began with two brothers and a dream has grown — 130 years later — into one of the largest construction companies in North America. Throughout Kiewit’s history, we have built roads that connect the world, dug canals to carry water to thirsty lands and bored tunnels through mountains. We build. We mine. We shape the landscape and create energy solutions. And we do it all with integrity, never compromising our ethics.",
         link: "https://www.kiewit.com/districts/kiewit-energy-us/careers/",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/3099530330",
         id: 23
       },
       {
@@ -212,7 +212,7 @@ export const companyData = [
         title: "At Microsoft, Our culture",
         desc: "We will only achieve our mission if we live our culture. We start with becoming learners in all things—having a growth mindset. Then we apply that mindset to learning about our customers, being diverse and inclusive, working together as one, and—ultimately—making a difference in the world.",
         link: "https://careers.microsoft.com/us/en",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/93217925969",
         id: 25
       },
       {
@@ -221,7 +221,7 @@ export const companyData = [
         title: "Why Collins",
         desc: "ith nearly 300 global sites, we attract professionals from around the world who are as intrigued as we are about the possibilities of aerospace and defense. Our workplaces are where people from different backgrounds, experiences and perspectives unite. Together, we create breakthroughs far superior to anything that might be accomplished alone. That’s the power of people, working shoulder-to-shoulder, on a global stage.",
         link: "https://jobs.collinsaerospace.com/",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/92034714834",
         id: 26
       },
       {
@@ -230,7 +230,7 @@ export const companyData = [
         title: "Jacobs. A world where you can.",
         desc: "What drives you drives us as we work to build a better world – together. At Jacobs, every day is an opportunity to make the world better, more connected, more sustainable. We’re powered by more than 50,000 people across the globe who deliver innovative scientific, technical, professional and program-management solutions for public and private clients around the world.",
         link: "https://www.jacobs.com/careers",
-        zoomLink: "https://www.youtube.com/",
+        zoomLink: "https://ucf.zoom.us/j/92006164312",
         id: 27
       }
   ]

@@ -287,8 +287,8 @@ renderVideoDialog() {
         { this.renderSearch() }
         { this.renderHeader() }
         { this.renderDialog() }
-        { this.renderMonday() }
-        {/* { this.renderTuesday() } */}
+        {/* { this.renderMonday() } */}
+        { this.renderTuesday() }
         <div id="footer">
           <img id="pic2" src={require("../assets/career_services.png")} />
           <h6 id="footerText">
