@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.11716f95.chunk.css",
-    "main.js": "/static/js/main.0e672b02.chunk.js",
-    "main.js.map": "/static/js/main.0e672b02.chunk.js.map",
+    "main.css": "/static/css/main.0f2223a9.chunk.css",
+    "main.js": "/static/js/main.0776871d.chunk.js",
+    "main.js.map": "/static/js/main.0776871d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b0039764.js",
     "runtime-main.js.map": "/static/js/runtime-main.b0039764.js.map",
     "static/js/2.27cb89da.chunk.js": "/static/js/2.27cb89da.chunk.js",
     "static/js/2.27cb89da.chunk.js.map": "/static/js/2.27cb89da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1500120b370312a245a5b8c6acbb411a.js": "/precache-manifest.1500120b370312a245a5b8c6acbb411a.js",
+    "precache-manifest.f7846c954ffee9654f20393ec816c2d2.js": "/precache-manifest.f7846c954ffee9654f20393ec816c2d2.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.11716f95.chunk.css.map": "/static/css/main.11716f95.chunk.css.map",
+    "static/css/main.0f2223a9.chunk.css.map": "/static/css/main.0f2223a9.chunk.css.map",
     "static/js/2.27cb89da.chunk.js.LICENSE.txt": "/static/js/2.27cb89da.chunk.js.LICENSE.txt",
     "static/media/IBM.png": "/static/media/IBM.798e67df.png",
     "static/media/JohnDeereC.jpg": "/static/media/JohnDeereC.7c59811b.jpg",
@@ -69,7 +69,7 @@
   "entrypoints": [
     "static/js/runtime-main.b0039764.js",
     "static/js/2.27cb89da.chunk.js",
-    "static/css/main.11716f95.chunk.css",
-    "static/js/main.0e672b02.chunk.js"
+    "static/css/main.0f2223a9.chunk.css",
+    "static/js/main.0776871d.chunk.js"
   ]
 }
