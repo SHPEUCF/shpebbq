@@ -30,7 +30,7 @@ body {
     width: 100%;
 }
 
-#img {
+#img {    
     max-height: 350px;
     overflow: hidden;
     width: 100%;

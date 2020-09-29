@@ -239,7 +239,7 @@ export const companyData = [
         title: "Why Aerojet Rocketdyne",
         desc: "Aerojet Rocketdyne is a world-recognized aerospace and defense leader providing propulsion and energetics to its space, missile defense, strategic, tactical missile and armaments customers throughout the world. Aerojet Rocketdyne's strategic and tactical missile programs defend America, our troops and our allies.",
         link: "https://www.rocket.com/careers",
-        zoomLink: "https://ucf.zoom.us/j/92006164312",
+        zoomLink: "https://ucf.zoom.us/j/92246472908",
         id: 27
       }
   ]
